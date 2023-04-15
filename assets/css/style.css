@@ -1,0 +1,72 @@
+.header {
+    height: 8em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../imgs/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Aquí abajo hice estas nuevas indicaciones de los elementos escritos de la etiqueta header porque no sabía como diseñarlas a mi gusto de otra forma, aun así no logré hacerlo como quería*/
+
+h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+
+h6
+
+/* este texto (agricultura biodinamica) quiero que esté al margen derecho justo debajo del titulo San Zapallo pero no puedo hacerlo */
+    {
+
+    margin: auto;
+    text-align: left;
+}
+
+
+
+h4 {
+    margin: auto;
+    text-align: left;
+}
+
+.products {
+    background-color: bisque;
+    width: 100%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+
+}
+
+
+/*quise agrandar la fuente de de los parrafos, lo hice así: */
+p {
+    font-size: 150%
+}
+
+
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(138, 20, 2);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
